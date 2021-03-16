@@ -1,0 +1,79 @@
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: #2d3248;
+    background-color: #19a2ae;
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-position: -250px -600px, 550px 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media screen and  (max-width: 400px){
+    body{
+        background-position: -700px -680px, 160px 190px;
+    }
+}
+
+.profile-card{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url('../images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    background-size: 320px 115px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.profile-card>img{
+    border-radius: 100%;
+    margin-top: 50px;
+    border: solid #ffffff 5px;
+}
+
+h1{
+    font-size: 18px;
+}
+
+.weight700{font-weight: 700;}
+.weight400{font-weight: 400;}
+
+h2{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.followers, .likes, .photos {
+    font-size: 12px;
+    display: block;
+}
+
+.profile-card>p{
+    display: inline-block;
+    width: 90px;
+}
+
+/*Footer*/
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d324850;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.attribution a { color: #ced1db; }
