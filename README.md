@@ -17,13 +17,13 @@
             <td>March 20, 2021</td>
             <td>challenge01</td>
             <td>Single Price Grid Component</td>
-            <td>HTML, CSS</td>
+            <td>HTML, CSS (Flexbox)</td>
         </tr>
         <tr>
             <td>Match 21, 2021</td>
             <td>challenge02</td>
             <td>Testimonials Grid Section</td>
-            <td>HTML, CSS</td>
+            <td>HTML, CSS (Flexbox)</td>
         </tr>
         <tr>
             <td>Match 25, 2021</td>
